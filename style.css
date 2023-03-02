@@ -1,0 +1,73 @@
+form{
+    padding: 1.5rem 2rem;
+    border: 0.25rem solid black;
+    border-radius: 2rem;
+}
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+label{
+    margin: 1rem 0.2rem 0rem 0.2rem;
+    font-size: 1.5rem;
+    font-family: 'Tilt Neon', cursive;
+}
+input{
+    background-color: #e7e7e7;
+    padding: 0.2rem;
+    width: 20rem;
+    font-size: 1.25rem;
+    border-radius: 0.75rem;
+    border: 0.125rem solid black;
+}
+.buttons{
+    display: flex;
+    justify-content:space-between;
+    align-items:center ;
+}
+#sub-btn{
+    width: fit-content;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding: 0.2rem 1.75rem;
+    border: 0.2rem solid black;
+    background-color: #00a000;
+    font-family: 'Tilt Warp', cursive;
+}
+#res-btn{
+    width: fit-content;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding: 0.2rem 1.75rem;
+    border: 0.2rem solid black;
+    background-color: #ee0000;
+    font-family: 'Tilt Warp', cursive;
+}
+h1{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem;
+    font-family: 'Phudu', cursive;
+    font-size: 3rem;
+}
+*,
+.container-fluid{
+    background-color: aquamarine;
+}
+span{
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+.forms,
+span,
+form,
+label,
+.buttons{
+    background-color: #efefef;
+}
